@@ -126,7 +126,7 @@ async function getPlacesData( links, page ) {
 
 		// Add the placeID to the set of processed places
 		processedPlaces.add(placeID);
-		console.log('Extracting data from placeID ' + placeID, link);
+		console.log('Extracting data from placeID ', link);
 		
 		await page.goto(link, { waitUntil: 'networkidle0' });
 
@@ -152,7 +152,7 @@ async function getPlacesData( links, page ) {
 		}
 
         console.log('****************');
-        console.log(placeData.website);
+        console.log(placeData.website?? 'No Website');
         console.log('****************');
 
 		console.log( "A sign shop! getting data..." );
