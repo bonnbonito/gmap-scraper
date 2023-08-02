@@ -7,7 +7,7 @@ puppeteer.use(StealthPlugin());
 
 async function getContactLinks(url) {
     let browser;
-
+    console.log('getting contact links');
     try {
         
         browser = await puppeteer.launch({
@@ -21,7 +21,7 @@ async function getContactLinks(url) {
            await dialog.accept();
         });
 
-        await page.setDefaultNavigationTimeout(0);
+        // await page.setDefaultNavigationTimeout(0);
 
         await page.goto(url, { waitUntil: ['networkidle2', 'load'] });
 

@@ -23,7 +23,8 @@ let processedZips = new Set();
 async function loadProcessedZips() {
     if (fs.existsSync(CONFIG.processedZipsFile)) {
         const content = await fs.promises.readFile(CONFIG.processedZipsFile, 'utf8');
-        processedZips = new Set(content.split('\n'));
+        processedZips = new Set(content.split('\n').map(zip => zip.trim()));
+		console.log(processedZips);
     }
 }
 
@@ -161,7 +162,7 @@ async function getPlacesData( links, page ) {
 		if (placeData.website !== 'No Value' && placeData.category.toLowerCase().includes("sign shop")) {
 			let contactLinks = [];
 			try {
-				contactLinks = await getContactLinks(placeData.website, page);
+				contactLinks = await getContactLinks(placeData.website);
 			} catch (error) {
 				console.error('Error in getContactLinks:', error);
 			}
@@ -169,7 +170,7 @@ async function getPlacesData( links, page ) {
 			try {
 				for (const link of contactLinks) {
 					console.log('Searching email in ', link);
-					const data = await searchEmails(link, page);
+					const data = await searchEmails(link);
 					if (Array.isArray(data) && data.length > 0) {
 						emails = data.filter((n) => n).join(', ') || 'No Value';
 						break;
