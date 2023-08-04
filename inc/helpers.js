@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 function extractPlaceID(url) {
     var match = url.match(/19s(.*?)\?/);
     if (match) {
@@ -7,6 +9,13 @@ function extractPlaceID(url) {
     }
 }
 
+async function writeToFile(filename, content) {
+    try {
+        await fs.promises.appendFile(filename, content);
+        console.log(`Successfully wrote data to ${filename}`);
+    } catch (error) {
+        console.error(`Error writing to file ${filename}:`, error);
+    }
+}
 
-
-module.exports = { extractPlaceID };
+module.exports = { extractPlaceID, writeToFile };

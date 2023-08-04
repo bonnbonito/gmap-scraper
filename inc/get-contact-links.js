@@ -2,6 +2,7 @@ const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 const {executablePath} = require('puppeteer') 
 const {autoScroll} = require('./auto-scroll');
+const { writeToFile } = require('./helpers');
 
 puppeteer.use(StealthPlugin());
 
@@ -67,6 +68,7 @@ async function getContactLinks(url) {
         return uniqueContactLinks;
     } catch (error) {
         console.error('An error occurred:', error);
+        await writeToFile(path.join(__dirname, 'error.log'), `${error.toString()} --- ${url} | getContactLinks()\n`);
         return "ERROR";
     } finally {
         if (browser) {

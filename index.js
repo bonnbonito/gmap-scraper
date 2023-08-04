@@ -3,7 +3,7 @@ const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 const {executablePath} = require('puppeteer') 
 const fs = require('fs');
 const path = require('path');
-const { extractPlaceID } = require('./inc/helpers');
+const { extractPlaceID, writeToFile } = require('./inc/helpers');
 const { autoScrollMap } = require('./inc/auto-scroll');
 const getContactLinks = require('./inc/get-contact-links');
 const searchEmails = require('./inc/email-helpers');
@@ -25,15 +25,6 @@ async function loadProcessedZips() {
         const content = await fs.promises.readFile(CONFIG.processedZipsFile, 'utf8');
         processedZips = new Set(content.split('\n').map(zip => zip.trim()));
 		console.log(processedZips);
-    }
-}
-
-async function writeToFile(filename, content) {
-    try {
-        await fs.promises.appendFile(filename, content);
-        console.log(`Successfully wrote data to ${filename}`);
-    } catch (error) {
-        console.error(`Error writing to file ${filename}:`, error);
     }
 }
 

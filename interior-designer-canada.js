@@ -12,7 +12,7 @@ const CONFIG = {
     mapUrl: 'https://www.google.com/maps/search/',
     query: 'interior designer',
     inputFilename: filename,
-    outputFilename: `output-${filename}`,
+    outputFilename: `./output/output-${filename}`,
     processedStatesFile: 'processedStates.txt'
 };
 
@@ -47,7 +47,7 @@ async function openPuppeteer(url) {
         await page.setViewport({ width: 1200, height: 900 });
         await page.goto(url, { waitUntil: 'networkidle0' });
 
-        const results = await parsePlaces( page);
+        const results = await parsePlaces( page );
         
         console.log('===================ParsePlaces================');
 
@@ -57,7 +57,7 @@ async function openPuppeteer(url) {
 
     } catch (error) {
         console.error('An error occurred:', error);
-        await writeToFile(path.join(__dirname, 'error.log'), `${error.toString()} --- ${url}\n`);
+        await writeToFile(path.join(__dirname, 'error.log'), `${error.toString()} --- ${url} | openPuppeteer()\n`);
     } finally {
         if (browser) {
             await browser.close();
@@ -76,7 +76,7 @@ async function parsePlaces(page) {
 
     if (hasFeed) {
         await autoScrollMap(page)
-        .then(() => {
+        .then((data) => {
         console.log("Scrolling finished");
         });
 
@@ -179,6 +179,7 @@ async function getPlacesData( links, page ) {
 				}
 			} catch (error) {
 				console.error('Error in processing contactLinks:', error);
+				await writeToFile(path.join(__dirname, 'error.log'), `${error.toString()} --- ${link} | getPlacesData()\n`);
 			}
 			
 		}
