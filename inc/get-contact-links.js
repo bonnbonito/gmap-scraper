@@ -14,7 +14,23 @@ async function getContactLinks(url) {
         browser = await puppeteer.launch({
             headless: false,
             executablePath: executablePath(),
-            args: [ '--ignore-certificate-errors' ]
+            args: [
+				'--disable-extensions',
+				'--disable-component-extensions-with-background-pages',
+				'--disable-default-apps',
+				'--mute-audio',
+				'--no-default-browser-check',
+				'--autoplay-policy=user-gesture-required',
+				'--disable-background-timer-throttling',
+				'--disable-backgrounding-occluded-windows',
+				'--disable-notifications',
+				'--disable-background-networking',
+				'--disable-breakpad',
+				'--disable-component-update',
+				'--disable-domain-reliability',
+				'--disable-sync',
+                '--ignore-certificate-errors'
+			]
         });
 
         const page = await browser.newPage();
