@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 const fs = require('fs');
 const path = require('path');
-const { extractPlaceID } = require('./inc/helpers');
+const { extractPlaceID, writeToFile } = require('./inc/helpers');
 const { autoScrollMap } = require('./inc/auto-scroll');
 const getContactLinks = require('./inc/get-contact-links');
 const searchEmails = require('./inc/email-helpers');
@@ -27,15 +27,6 @@ async function loadProcessedStates() {
     }
 }
 
-async function writeToFile(filename, content) {
-    try {
-        await fs.promises.appendFile(filename, content);
-        console.log(`Successfully wrote data to ${filename}`);
-    } catch (error) {
-        console.error(`Error writing to file ${filename}:`, error);
-    }
-}
-
 async function openPuppeteer(url) {
     let browser = null;
 
@@ -44,7 +35,7 @@ async function openPuppeteer(url) {
         browser = await puppeteer.launch({ headless: false });
         const page = await browser.newPage();
 
-        await page.setViewport({ width: 1200, height: 900 });
+        await page.setViewport({ width: 1200, height: 3000 });
         await page.goto(url, { waitUntil: 'networkidle0' });
 
         const results = await parsePlaces( page );
