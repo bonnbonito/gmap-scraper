@@ -15,3 +15,9 @@ ProtocolError: Runtime.callFunctionOn timed out. Increase the 'protocolTimeout' 
 ProtocolError: Runtime.callFunctionOn timed out. Increase the 'protocolTimeout' setting in launch/connect calls for a higher timeout if needed. --- https://www.google.com/maps/search/sign+shop+in+90071,Los+Angeles,CA/@34.05278,-118.25482,15z/data=!4m2!2m1!6e6?entry=ttu
 Error: No element found for selector: #searchbox-searchbutton --- https://www.google.com/maps/search/sign+shop+in+95550,Korbel,CA/@40.77331,-123.81846,15z/data=!4m2!2m1!6e6?entry=ttu
 TimeoutError: Navigation timeout of 30000 ms exceeded --- https://www.google.com/maps/search/sign+shop+in+93943,Monterey,CA/@36.59706,-121.87413,15z/data=!4m2!2m1!6e6?entry=ttu
+ReferenceError: CONFIG is not defined --- https://www.google.com/maps/search/interior+designer+in+Montreal/@45.5591827,-73.7118733,13z/data=!4m2!2m1!6e6?entry=ttu
+ReferenceError: CONFIG is not defined --- https://www.google.com/maps/search/interior+designer+in+Montreal/@45.5591827,-73.7118733,13z/data=!4m2!2m1!6e6?entry=ttu
+ReferenceError: CONFIG is not defined --- https://www.google.com/maps/search/interior+designer+in+Vancouver/@49.2577354,-123.123904,13z/data=!4m2!2m1!6e6?entry=ttu
+ReferenceError: CONFIG is not defined --- https://www.google.com/maps/search/interior+designer+in+Toronto/@43.7182412,-79.3780581,13z/data=!4m2!2m1!6e6?entry=ttu
+ReferenceError: CONFIG is not defined --- https://www.google.com/maps/search/interior+designer+in+Toronto/@43.7182412,-79.3780581,13z/data=!4m2!2m1!6e6?entry=ttu
+ReferenceError: CONFIG is not defined --- https://www.google.com/maps/search/interior+designer+in+Montreal/@45.5591827,-73.7118733,13z/data=!4m2!2m1!6e6?entry=ttu
