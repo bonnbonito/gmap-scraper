@@ -65,7 +65,6 @@ async function getContactLinks(url) {
         uniqueContactLinks = uniqueContactLinks.sort((a, b) => (a.includes('facebook') === b.includes('facebook')) ? 0 : a.includes('facebook') ? 1 : -1);
 
         console.log("Links found: ", uniqueContactLinks);
-		await browser.close();
         return uniqueContactLinks;
     } catch (error) {
         console.error('An error occurred:', error);

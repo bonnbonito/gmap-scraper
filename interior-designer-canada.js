@@ -126,7 +126,7 @@ async function getPlacesData( links ) {
 			await page.goto(link, { waitUntil: 'networkidle0' });
 
 		const placeData = await page.evaluate(() => {
-			const name = document.querySelector('h1').innerText;
+			const name = document.querySelector('h1')?.innerText ?? 'No Value';
 			const website =
 				document.querySelector('a[data-item-id="authority"]')?.href ??
 				'No Value';
