@@ -33,7 +33,10 @@ async function openPuppeteer(url) {
 
     try {
         puppeteer.use(StealthPlugin());
-        browser = await puppeteer.launch({ headless: false });
+        browser = await puppeteer.launch({ 
+			headless: false,
+			args: [ '--ignore-certificate-errors' ] 
+		});
         const page = await browser.newPage();
 
         await page.setViewport({ width: 1200, height: 900 });

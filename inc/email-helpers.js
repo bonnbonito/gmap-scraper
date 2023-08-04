@@ -169,8 +169,9 @@ async function fetchAndDecodeHTMLPuppeteer(url) {
 	let browser;
 	try {
 		puppeteer.use(StealthPlugin());
-		browser = await puppeteer.launch({
-			headless: false, // Change this to false if you want to see the browser window
+		browser = await puppeteer.launch({ 
+			headless: false,
+			args: [ '--ignore-certificate-errors' ] 
 		});
 
 		page = await browser.newPage();

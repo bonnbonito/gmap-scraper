@@ -13,7 +13,8 @@ async function getContactLinks(url) {
         
         browser = await puppeteer.launch({
             headless: false,
-            executablePath: executablePath()
+            executablePath: executablePath(),
+            args: [ '--ignore-certificate-errors' ]
         });
 
         const page = await browser.newPage();
