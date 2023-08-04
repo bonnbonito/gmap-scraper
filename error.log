@@ -1,0 +1,2 @@
+TimeoutError: Navigation timeout of 30000 ms exceeded --- https://www.google.com/maps/place/Avant+Group+Incorporation/data=!4m7!3m6!1s0x883b2be149712bcb:0x54ba2f7049ff5763!8m2!3d42.3105361!4d-82.9536254!16s%2Fg%2F11sgy500kq!19sChIJyytxSeErO4gRY1f_SXAvulQ?authuser=0&hl=en&rclk=1 | getPlacesData()
+Error: Requesting main frame too early! --- https://www.google.com/maps/place/Hansen+Interiors+LTD/data=!4m7!3m6!1s0x5304f6664c74c6ef:0xc4872e85184aa73e!8m2!3d52.170237!4d-106.662721!16s%2Fg%2F1tfxgbkf!19sChIJ78Z0TGb2BFMRPqdKGIUuh8Q?authuser=0&hl=en&rclk=1 | getPlacesData()

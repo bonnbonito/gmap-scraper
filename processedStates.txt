@@ -12,3 +12,6 @@ London
 Victoria
 Halifax
 Oshawa
+Windsor
+Saskatoon
+St. Catharines
