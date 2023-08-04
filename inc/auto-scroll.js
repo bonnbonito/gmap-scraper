@@ -33,18 +33,18 @@ const autoScrollMap = async (page) => {
                 
 					linkElements = Array.from(document.querySelectorAll('[role="feed"] a'));
 
-					// Check if end of list message is visible
 					let endOfListArray = Array.from(
 						document.querySelectorAll('span')
 					).filter(
 						(el) => el.innerText === "You've reached the end of the list."
 					);
 					const endOfList = endOfListArray.length > 0 ? endOfListArray[0] : null;
-
+	
 					if (endOfList) {
 						clearInterval(timer);
 						resolve();
 					}
+
 				}, 100);
 			});
 		} catch (error) {

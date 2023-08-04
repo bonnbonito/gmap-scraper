@@ -51,7 +51,7 @@ async function openPuppeteer(url) {
         
         console.log('===================ParsePlaces================');
 
-        const data = results.length > 0 ? await getPlacesData(results, page ) : [];
+        const data = results.length > 0 ? await getPlacesData(results ) : [];
 
         console.log(data);
 
@@ -78,22 +78,7 @@ async function parsePlaces(page) {
         await autoScrollMap(page)
         .then((data) => {
         console.log("Scrolling finished");
-        });
-
-        links = await page.evaluate(() => {
-            // Extract the href attributes from all anchor tags with role="feed"
-            const linkElements = document.querySelectorAll('[role="feed"] a');
-            let interiorDesignerLinks = new Set();
-    
-            for (let i = 0; i < linkElements.length; i++) {
-    
-                if ( linkElements[i].nextElementSibling?.nextElementSibling?.innerText.toLowerCase().includes('interior designer') ) {
-                    interiorDesignerLinks.add(linkElements[i].href);
-                }
-    
-            }
-            
-            return Array.from(interiorDesignerLinks);
+		links = data;
         });
     }
 
@@ -107,7 +92,7 @@ async function parsePlaces(page) {
 }
 
 
-async function getPlacesData( links, page ) {
+async function getPlacesData( links ) {
 
 	const query = "interior designer";
 
@@ -129,8 +114,21 @@ async function getPlacesData( links, page ) {
 		// Add the placeID to the set of processed places
 		processedPlaces.add(placeID);
 		console.log('Extracting data from placeID ', link);
-		
-		await page.goto(link, { waitUntil: 'networkidle0' });
+
+		let browser;
+		try {
+			puppeteer.use(StealthPlugin());
+			browser = await puppeteer.launch({
+				headless: false, // Change this to false if you want to see the browser window
+			});
+
+			page = await browser.newPage();
+
+			page.on('dialog', async dialog => {
+				await dialog.accept();
+			});
+
+			await page.goto(link, { waitUntil: 'networkidle0' });
 
 		const placeData = await page.evaluate(() => {
 			const name = document.querySelector('h1').innerText;
@@ -160,6 +158,7 @@ async function getPlacesData( links, page ) {
 		console.log( "A "+ query +"! getting data..." );
 
 		let emails;
+
 		if (placeData.website !== 'No Value' && placeData.category.toLowerCase().includes(query)) {
 			let contactLinks = [];
 			try {
@@ -179,7 +178,7 @@ async function getPlacesData( links, page ) {
 				}
 			} catch (error) {
 				console.error('Error in processing contactLinks:', error);
-				await writeToFile(path.join(__dirname, 'error.log'), `${error.toString()} --- ${link} | getPlacesData()\n`);
+				await writeToFile(path.join(__dirname, 'error.log'), `${error.toString()} --- ${link} | getPlacesData 2()\n`);
 			}
 			
 		}
@@ -210,6 +209,17 @@ async function getPlacesData( links, page ) {
 				console.log(`Successfully wrote data for ${placeData.name} to file.`);
 			}
 		});
+
+			
+		} catch (error) {
+			console.error('Error:', error.message);
+			await writeToFile(path.join(__dirname, 'error.log'), `${error.toString()} --- ${link} | getPlacesData()\n`);
+			return null;
+		} finally {
+			if (browser) {
+				await browser.close();
+			}
+		}
 	}
 }
 
