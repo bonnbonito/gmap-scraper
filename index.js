@@ -34,7 +34,7 @@ async function openPuppeteer(url) {
     try {
         puppeteer.use(StealthPlugin());
         browser = await puppeteer.launch({ 
-			headless: false
+			headless: false,
 			args: [
 				'--disable-extensions',
 				'--disable-component-extensions-with-background-pages',
