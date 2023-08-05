@@ -3,12 +3,14 @@ const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 const {executablePath} = require('puppeteer') 
 const {autoScroll} = require('./auto-scroll');
 const { writeToFile } = require('./helpers');
+const fs = require('fs-extra');
 
 puppeteer.use(StealthPlugin());
 
 async function getContactLinks(url) {
     let browser;
     console.log('getting contact links');
+    let chromeTmpDataDir = null;
     try {
         
         browser = await puppeteer.launch({
@@ -16,6 +18,14 @@ async function getContactLinks(url) {
             executablePath: executablePath(),
             args: [ '--ignore-certificate-errors' ]
         });
+
+        
+		let chromeSpawnArgs = browser.process().spawnargs;
+		for (let i = 0; i < chromeSpawnArgs.length; i++) {
+			if (chromeSpawnArgs[i].indexOf("--user-data-dir=") === 0) {
+				chromeTmpDataDir = chromeSpawnArgs[i].replace("--user-data-dir=", "");
+			}
+		}
 
         const page = await browser.newPage();
 
@@ -65,7 +75,6 @@ async function getContactLinks(url) {
         uniqueContactLinks = uniqueContactLinks.sort((a, b) => (a.includes('facebook') === b.includes('facebook')) ? 0 : a.includes('facebook') ? 1 : -1);
 
         console.log("Links found: ", uniqueContactLinks);
-		await browser.close();
         return uniqueContactLinks;
     } catch (error) {
         console.error('An error occurred:', error);
@@ -74,6 +83,16 @@ async function getContactLinks(url) {
     } finally {
         if (browser) {
             await browser.close();
+            if (fs.statSync(chromeTmpDataDir).isDirectory()) {
+                // If so, try to delete the folder recursively
+                fs.rm(chromeTmpDataDir, { recursive: true, force: true }, (err) => {
+                  if (err) {
+                    console.error('Error deleting folder:', chromeTmpDataDir, err);
+                  } else {
+                    console.log('Successfully deleted folder:', chromeTmpDataDir);
+                  }
+                });
+              }
         }
     }
 }
