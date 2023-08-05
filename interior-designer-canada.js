@@ -34,7 +34,7 @@ async function openPuppeteer(url) {
         puppeteer.use(StealthPlugin());
         browser = await puppeteer.launch({ 
 			headless: false,
-			userDataDir: 'D:\\puppeteer',
+			userDataDir: '../puppeteer-DELETE',
 			args: [
 				'--disable-extensions',
 				'--disable-component-extensions-with-background-pages',
@@ -52,6 +52,8 @@ async function openPuppeteer(url) {
 				'--disable-sync',
                 '--ignore-certificate-errors',
 				'--incognito',
+				'--no-sandbox',
+				'--disable-setuid-sandbox',
 			]
 		});
 		
@@ -137,7 +139,7 @@ async function getPlacesData( links ) {
 			puppeteer.use(StealthPlugin());
 			browser = await puppeteer.launch({ 
 				headless: false,
-				userDataDir: 'D:\\puppeteer',
+				userDataDir: '../puppeteer-DELETE',
 				args: [
 					'--disable-extensions',
 					'--disable-component-extensions-with-background-pages',
@@ -155,10 +157,16 @@ async function getPlacesData( links ) {
 					'--disable-sync',
 					'--ignore-certificate-errors',
 					'--incognito',
+					'--no-sandbox',
+					'--disable-setuid-sandbox',
 				]
 			});
 
-			page = await browser.newPage();
+			const context = await browser.createIncognitoBrowserContext();
+			const page = await context.newPage();
+
+			const cookies = await page.cookies();
+			cookies.forEach(page.deleteCookie);
 
 			page.on('dialog', async dialog => {
 				await dialog.accept();

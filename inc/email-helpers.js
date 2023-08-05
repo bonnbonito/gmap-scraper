@@ -171,7 +171,7 @@ async function fetchAndDecodeHTMLPuppeteer(url) {
 		puppeteer.use(StealthPlugin());
 		browser = await puppeteer.launch({ 
 			headless: false,
-			userDataDir: 'D:\\puppeteer',
+			userDataDir: '../puppeteer-DELETE',
 			args: [
 				'--disable-extensions',
 				'--disable-component-extensions-with-background-pages',
@@ -187,11 +187,15 @@ async function fetchAndDecodeHTMLPuppeteer(url) {
 				'--disable-component-update',
 				'--disable-domain-reliability',
 				'--disable-sync',
-                '--ignore-certificate-errors'
+				'--ignore-certificate-errors',
+				'--incognito',
+				'--no-sandbox',
+				'--disable-setuid-sandbox',
 			]
 		});
 
-		const page = await browser.newPage();
+		const context = await browser.createIncognitoBrowserContext();
+        const page = await context.newPage();
 
 		const cookies = await page.cookies();
 		cookies.forEach(page.deleteCookie);
