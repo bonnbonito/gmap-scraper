@@ -1,3 +1,4 @@
 ProtocolError: Runtime.callFunctionOn timed out. Increase the 'protocolTimeout' setting in launch/connect calls for a higher timeout if needed. --- https://www.google.com/maps/search/interior+designer+in+Toronto/@43.7182412,-79.3780581,13z/data=!4m2!2m1!6e6?entry=ttu
 TypeError: Cannot read properties of null (reading 'innerText') --- https://www.google.com/maps/search/interior+designer+in+Toronto/@43.7182412,-79.3780581,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
 TypeError: Cannot read properties of null (reading 'match') --- https://www.google.com/maps/search/interior+designer+in+Toronto/@43.7182412,-79.3780581,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Navigation failed because browser has disconnected! --- https://www.google.com/maps/search/interior+designer+in+Toronto/@43.7182412,-79.3780581,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()

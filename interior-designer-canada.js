@@ -34,9 +34,34 @@ async function openPuppeteer(url) {
         puppeteer.use(StealthPlugin());
         browser = await puppeteer.launch({ 
 			headless: false,
-			args: [ '--ignore-certificate-errors' ] 
+			userDataDir: '../puppeteer-DELETE',
+			args: [
+				'--disable-extensions',
+				'--disable-component-extensions-with-background-pages',
+				'--disable-default-apps',
+				'--mute-audio',
+				'--no-default-browser-check',
+				'--autoplay-policy=user-gesture-required',
+				'--disable-background-timer-throttling',
+				'--disable-backgrounding-occluded-windows',
+				'--disable-notifications',
+				'--disable-background-networking',
+				'--disable-breakpad',
+				'--disable-component-update',
+				'--disable-domain-reliability',
+				'--disable-sync',
+                '--ignore-certificate-errors',
+				'--incognito',
+				'--no-sandbox',
+				'--disable-setuid-sandbox',
+			]
 		});
-        const page = await browser.newPage();
+		
+		const context = await browser.createIncognitoBrowserContext();
+        const page = await context.newPage();
+
+		const cookies = await page.cookies();
+		cookies.forEach(page.deleteCookie);
 
         await page.setViewport({ width: 1200, height: 3000 });
         await page.goto(url, { waitUntil: 'networkidle0' });
@@ -114,10 +139,34 @@ async function getPlacesData( links ) {
 			puppeteer.use(StealthPlugin());
 			browser = await puppeteer.launch({ 
 				headless: false,
-				args: [ '--ignore-certificate-errors' ] 
+				userDataDir: '../puppeteer-DELETE',
+				args: [
+					'--disable-extensions',
+					'--disable-component-extensions-with-background-pages',
+					'--disable-default-apps',
+					'--mute-audio',
+					'--no-default-browser-check',
+					'--autoplay-policy=user-gesture-required',
+					'--disable-background-timer-throttling',
+					'--disable-backgrounding-occluded-windows',
+					'--disable-notifications',
+					'--disable-background-networking',
+					'--disable-breakpad',
+					'--disable-component-update',
+					'--disable-domain-reliability',
+					'--disable-sync',
+					'--ignore-certificate-errors',
+					'--incognito',
+					'--no-sandbox',
+					'--disable-setuid-sandbox',
+				]
 			});
 
-			page = await browser.newPage();
+			const context = await browser.createIncognitoBrowserContext();
+			const page = await context.newPage();
+
+			const cookies = await page.cookies();
+			cookies.forEach(page.deleteCookie);
 
 			page.on('dialog', async dialog => {
 				await dialog.accept();
@@ -126,7 +175,7 @@ async function getPlacesData( links ) {
 			await page.goto(link, { waitUntil: 'networkidle0' });
 
 		const placeData = await page.evaluate(() => {
-			const name = document.querySelector('h1').innerText;
+			const name = document.querySelector('h1')?.innerText ?? 'No Value';
 			const website =
 				document.querySelector('a[data-item-id="authority"]')?.href ??
 				'No Value';

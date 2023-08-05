@@ -13,11 +13,34 @@ async function getContactLinks(url) {
         
         browser = await puppeteer.launch({
             headless: false,
-            executablePath: executablePath(),
-            args: [ '--ignore-certificate-errors' ]
+			userDataDir: '../puppeteer-DELETE',
+			args: [
+				'--disable-extensions',
+				'--disable-component-extensions-with-background-pages',
+				'--disable-default-apps',
+				'--mute-audio',
+				'--no-default-browser-check',
+				'--autoplay-policy=user-gesture-required',
+				'--disable-background-timer-throttling',
+				'--disable-backgrounding-occluded-windows',
+				'--disable-notifications',
+				'--disable-background-networking',
+				'--disable-breakpad',
+				'--disable-component-update',
+				'--disable-domain-reliability',
+				'--disable-sync',
+                '--ignore-certificate-errors',
+				'--incognito',
+				'--no-sandbox',
+				'--disable-setuid-sandbox',
+			]
         });
 
-        const page = await browser.newPage();
+        const context = await browser.createIncognitoBrowserContext();
+        const page = await context.newPage();
+
+        const cookies = await page.cookies();
+		cookies.forEach(page.deleteCookie);
 
         page.on('dialog', async dialog => {
            await dialog.accept();
@@ -65,7 +88,6 @@ async function getContactLinks(url) {
         uniqueContactLinks = uniqueContactLinks.sort((a, b) => (a.includes('facebook') === b.includes('facebook')) ? 0 : a.includes('facebook') ? 1 : -1);
 
         console.log("Links found: ", uniqueContactLinks);
-		await browser.close();
         return uniqueContactLinks;
     } catch (error) {
         console.error('An error occurred:', error);
