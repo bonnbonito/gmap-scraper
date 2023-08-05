@@ -8,3 +8,43 @@ Error: Failed to launch the browser process!
 
 TROUBLESHOOTING: https://pptr.dev/troubleshooting
  --- https://www.google.com/maps/place/INTERIORS+IN+ORDER+INC./data=!4m7!3m6!1s0x89d4cb331b897421:0x5c6d4ba0ac061b8c!8m2!3d43.6514981!4d-79.3784926!16s%2Fg%2F11bx8rxwk4!19sChIJIXSJGzPL1IkRjBsGrKBLbVw?authuser=0&hl=en&rclk=1 | getPlacesData()
+TimeoutError: Navigation timeout of 30000 ms exceeded --- https://www.google.com/maps/search/interior+designer+in+Toronto/@43.7182412,-79.3780581,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Failed to launch the browser process!
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+ --- https://www.google.com/maps/place/Dress+This+Space+Inc./data=!4m7!3m6!1s0x882b2b317e573687:0x42fc5f205bd755a2!8m2!3d43.855305!4d-79.386063!16s%2Fg%2F11f3w9pd_p!19sChIJhzZXfjErK4gRolXXWyBf_EI?authuser=0&hl=en&rclk=1 | getPlacesData()
+Error: Navigation failed because browser has disconnected! --- https://www.google.com/maps/search/interior+designer+in+Montreal/@45.5591827,-73.7118733,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+TimeoutError: Navigation timeout of 30000 ms exceeded --- https://www.google.com/maps/search/interior+designer+in+Toronto/@43.7182412,-79.3780581,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Failed to launch the browser process!
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+ --- https://www.google.com/maps/place/Venus+Furniture+Home/data=!4m7!3m6!1s0x882b2b878cce06e5:0xf58308b6a58f0ca6!8m2!3d43.8053009!4d-79.4126736!16s%2Fg%2F11gy0s1vn6!19sChIJ5QbOjIcrK4gRpgyPpbYIg_U?authuser=0&hl=en&rclk=1 | getPlacesData()
+TimeoutError: Navigation timeout of 30000 ms exceeded --- https://www.google.com/maps/search/interior+designer+in+Toronto/@43.7182412,-79.3780581,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Failed to launch the browser process!
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+ --- https://www.google.com/maps/place/Versa+Style+Design/data=!4m7!3m6!1s0x4cc8e02fb7cd64d9:0x1fff36668f1576d1!8m2!3d45.6144801!4d-73.6571255!16s%2Fg%2F1tfl9859!19sChIJ2WTNty_gyEwR0XYVj2Y2_x8?authuser=0&hl=en&rclk=1 | getPlacesData()
+Error: Failed to launch the browser process!
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+ --- https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjlipzG-8SAAxXemmYCHRLxBWgYABAAGgJzbQ&ohost=www.google.com&cid=CAASE-Ro11sE6-bvdWQLMS66YhIyZws&sig=AOD64_2Qo13f8TG1sVErMTWGRXAv4XIq5A&adurl=&rct=j | getPlacesData()
+Error: Failed to launch the browser process!
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+ --- https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjEsIXP_MSAAxWTk2YCHcm0DegYABAAGgJzbQ&ohost=www.google.com&cid=CAASE-RoeOczonKF77CY6cZs8BH_kpk&sig=AOD64_34sLA4F9vaal-N_1DZ4tt6nwA0AQ&adurl=&rct=j | getPlacesData()
+Error: Failed to launch the browser process!
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+ --- https://www.google.com/maps/place/Ara+Design+%26+Engineering/data=!4m7!3m6!1s0x882b2d3345b6cc69:0x408e3e82408c625b!8m2!3d43.7611096!4d-79.4101973!16s%2Fg%2F11nnslfzlp!19sChIJacy2RTMtK4gRW2KMQII-jkA?authuser=0&hl=en&rclk=1 | getPlacesData()
+Error: Failed to launch the browser process!
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+ --- https://www.google.com/maps/place/Dress+This+Space+Inc./data=!4m7!3m6!1s0x882b2b317e573687:0x42fc5f205bd755a2!8m2!3d43.855305!4d-79.386063!16s%2Fg%2F11f3w9pd_p!19sChIJhzZXfjErK4gRolXXWyBf_EI?authuser=0&hl=en&rclk=1 | getPlacesData()
+TypeError: Cannot read properties of null (reading 'innerText') --- https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj_-5uY_sSAAxVDeysKHXRYBwoYABAAGgJzZg&ohost=www.google.com&cid=CAASEuRoMXyNhOKVQgiht2s8Rtck0A&sig=AOD64_1Yy-ty6jmwkJCp6Z5aYRmeUG6l6Q&adurl=&rct=j | getPlacesData()
