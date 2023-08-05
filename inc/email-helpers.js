@@ -171,6 +171,7 @@ async function fetchAndDecodeHTMLPuppeteer(url) {
 		puppeteer.use(StealthPlugin());
 		browser = await puppeteer.launch({ 
 			headless: false,
+			userDataDir: 'D:\\puppeteer',
 			args: [
 				'--disable-extensions',
 				'--disable-component-extensions-with-background-pages',
@@ -190,7 +191,10 @@ async function fetchAndDecodeHTMLPuppeteer(url) {
 			]
 		});
 
-		page = await browser.newPage();
+		const page = await browser.newPage();
+
+		const cookies = await page.cookies();
+		cookies.forEach(page.deleteCookie);
 
 		page.on('dialog', async dialog => {
 			await dialog.accept();

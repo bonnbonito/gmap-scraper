@@ -14,6 +14,7 @@ async function getContactLinks(url) {
         browser = await puppeteer.launch({
             headless: false,
             executablePath: executablePath(),
+            userDataDir: 'D:\\puppeteer',
             args: [
 				'--disable-extensions',
 				'--disable-component-extensions-with-background-pages',
@@ -29,11 +30,16 @@ async function getContactLinks(url) {
 				'--disable-component-update',
 				'--disable-domain-reliability',
 				'--disable-sync',
-                '--ignore-certificate-errors'
+                '--ignore-certificate-errors',
+                '--incognito',
 			]
         });
 
-        const page = await browser.newPage();
+        const context = await browser.createIncognitoBrowserContext();
+        const page = await context.newPage();
+        
+        const cookies = await page.cookies();
+		cookies.forEach(page.deleteCookie);
 
         page.on('dialog', async dialog => {
            await dialog.accept();

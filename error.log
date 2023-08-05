@@ -1,2 +1,1018 @@
 TimeoutError: Navigation timeout of 30000 ms exceeded --- https://www.google.com/maps/place/Avant+Group+Incorporation/data=!4m7!3m6!1s0x883b2be149712bcb:0x54ba2f7049ff5763!8m2!3d42.3105361!4d-82.9536254!16s%2Fg%2F11sgy500kq!19sChIJyytxSeErO4gRY1f_SXAvulQ?authuser=0&hl=en&rclk=1 | getPlacesData()
 Error: Requesting main frame too early! --- https://www.google.com/maps/place/Hansen+Interiors+LTD/data=!4m7!3m6!1s0x5304f6664c74c6ef:0xc4872e85184aa73e!8m2!3d52.170237!4d-106.662721!16s%2Fg%2F1tfxgbkf!19sChIJ78Z0TGb2BFMRPqdKGIUuh8Q?authuser=0&hl=en&rclk=1 | getPlacesData()
+TimeoutError: Navigation timeout of 30000 ms exceeded --- https://www.google.com/maps/place/Rock+House+Style/data=!4m7!3m6!1s0x537d8bab2f3ec58f:0x57446079255d4fb9!8m2!3d54.1123524!4d-124.5284626!16s%2Fg%2F1ptwktl0r!19sChIJj8U-L6uLfVMRuU9dJXlgRFc?authuser=0&hl=en&rclk=1 | getPlacesData()
+TargetCloseError: Protocol error (Target.createTarget): Target closed --- https://www.google.com/maps/place/Ancr%C3%A9e+Design/data=!4m7!3m6!1s0x4cb7afb94b5d1437:0xac755e0a27225d3e!8m2!3d44.177489!4d-77.3316646!16s%2Fg%2F11f9wt95fz!19sChIJNxRdS7mvt0wRPl0iJwpedaw?authuser=0&hl=en&rclk=1 | getPlacesData()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Kelowna/@49.8996925,-119.4547795,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Barrie/@44.3591392,-79.665722,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Sherbrooke/@45.4119432,-71.9556372,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Guelph/@43.534433,-80.240168,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Kanata/@45.3484296,-75.9353381,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Abbotsford/@49.0870455,-122.2676685,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Trois-Rivières/@46.3727655,-72.5957896,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Kingston/@44.3398599,-76.4731945,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Milton/@43.5231324,-79.942436,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Moncton/@46.113255,-64.8006006,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+White Rock/@49.0166675,-122.812268,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Nanaimo/@49.1780019,-123.9370119,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Brantford/@43.1476086,-80.2740655,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Chicoutimi/@48.3389125,-71.1075547,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Saint-Jérôme/@45.796479,-74.043705,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Red Deer/@52.2792348,-113.808089,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Thunder Bay/@48.4025585,-89.2405251,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Lethbridge/@49.6885856,-112.845585,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Kamloops/@50.7417549,-120.2987295,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Sudbury/@46.584407,-81.079126,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Saint-Jean-sur-Richelieu/@45.323064,-73.2897004,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Peterborough/@44.315482,-78.3282696,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Chilliwack/@49.1372365,-121.9498565,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Châteauguay/@45.362877,-73.744799,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Belleville/@44.2406001,-77.361139,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Sarnia/@43.0344295,-82.3436345,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Airdrie/@51.2854305,-114.0036318,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Drummondville/@45.8920845,-72.4608,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Welland/@42.9803594,-79.2297889,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Fort McMurray/@56.6970928,-111.3477879,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Prince George/@53.9268985,-122.7524185,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Sault Ste. Marie/@46.5317405,-84.4238035,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Fredericton/@45.945462,-66.6662515,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Saint John/@45.110292,-66.0418475,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Medicine Hat/@50.051616,-110.7092374,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Grande Prairie/@55.1779996,-118.8206325,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Granby/@45.397663,-72.7543225,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Bowmanville/@43.9104969,-78.6853906,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Beloeil/@45.589399,-73.2249365,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Charlottetown/@46.2619612,-63.13589,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Vernon/@50.2353515,-119.340157,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+North Bay/@46.3324605,-79.3805354,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Saint-Hyacinthe/@45.6371,-72.9361785,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Brandon/@49.8606321,-99.9068439,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Joliette/@46.0108245,-73.421568,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Courtenay/@49.6910165,-124.9823675,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Cornwall/@45.0450979,-74.756856,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Victoriaville/@46.0612834,-71.9684615,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Woodstock/@43.1304559,-80.73805,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+St. Thomas/@42.7784536,-81.1934235,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Chatham/@42.3559446,-82.0800857,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Georgetown/@43.6535487,-79.9023268,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Salaberry-de-Valleyfield/@45.2684875,-74.0747006,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Spruce Grove/@53.541204,-113.9038285,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Shawinigan/@46.689684,-72.8812789,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Rimouski/@48.403825,-68.5819611,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Bradford/@44.1068031,-79.5766192,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Campbell River/@50.0109455,-125.3010675,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Penticton/@49.489748,-119.5659146,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Prince Albert/@53.2168265,-105.671746,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Stouffville/@44.012493,-79.3192395,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Sorel/@46.0053225,-73.098132,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Mission/@49.2312164,-122.325174,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Leamington/@42.0405273,-82.5515808,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Orangeville/@43.9121334,-80.1036288,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Leduc/@53.2723539,-113.5496281,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Orillia/@44.602838,-79.4198325,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Stratford/@43.3688236,-80.984248,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Moose Jaw/@50.3935501,-105.551875,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Cochrane/@51.1904578,-114.4725155,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Lloydminster/@53.2782916,-110.0288106,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Cape Breton/@46.2950631,-60.6701976,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Okotoks/@50.7285527,-113.966334,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Innisfil/@44.298376,-79.6009993,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Timmins/@48.494105,-81.2688895,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Saint-Georges/@46.0979475,-70.6729089,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Parksville/@49.322634,-124.3019572,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Keswick/@44.2276243,-79.479365,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Fort Saskatchewan/@53.7157496,-113.2089864,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Bolton/@43.8727467,-79.7357407,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Midland/@44.7548225,-79.8583045,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+St. John's/@47.4826312,-52.8296403,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Kelowna/@49.8996925,-119.4547795,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Barrie/@44.3591392,-79.665722,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Sherbrooke/@45.4119432,-71.9556372,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Guelph/@43.534433,-80.240168,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Kanata/@45.3484296,-75.9353381,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Abbotsford/@49.0870455,-122.2676685,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Trois-Rivières/@46.3727655,-72.5957896,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Kingston/@44.3398599,-76.4731945,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Milton/@43.5231324,-79.942436,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Moncton/@46.113255,-64.8006006,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+White Rock/@49.0166675,-122.812268,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Nanaimo/@49.1780019,-123.9370119,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Brantford/@43.1476086,-80.2740655,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Chicoutimi/@48.3389125,-71.1075547,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Saint-Jérôme/@45.796479,-74.043705,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Red Deer/@52.2792348,-113.808089,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Thunder Bay/@48.4025585,-89.2405251,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Lethbridge/@49.6885856,-112.845585,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Kamloops/@50.7417549,-120.2987295,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Sudbury/@46.584407,-81.079126,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Saint-Jean-sur-Richelieu/@45.323064,-73.2897004,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Peterborough/@44.315482,-78.3282696,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Chilliwack/@49.1372365,-121.9498565,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Châteauguay/@45.362877,-73.744799,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Belleville/@44.2406001,-77.361139,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Sarnia/@43.0344295,-82.3436345,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Airdrie/@51.2854305,-114.0036318,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Drummondville/@45.8920845,-72.4608,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Welland/@42.9803594,-79.2297889,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Fort McMurray/@56.6970928,-111.3477879,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Prince George/@53.9268985,-122.7524185,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Sault Ste. Marie/@46.5317405,-84.4238035,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Fredericton/@45.945462,-66.6662515,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Saint John/@45.110292,-66.0418475,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Medicine Hat/@50.051616,-110.7092374,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Grande Prairie/@55.1779996,-118.8206325,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Granby/@45.397663,-72.7543225,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Bowmanville/@43.9104969,-78.6853906,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Beloeil/@45.589399,-73.2249365,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Charlottetown/@46.2619612,-63.13589,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Vernon/@50.2353515,-119.340157,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+North Bay/@46.3324605,-79.3805354,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Saint-Hyacinthe/@45.6371,-72.9361785,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Brandon/@49.8606321,-99.9068439,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Joliette/@46.0108245,-73.421568,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Courtenay/@49.6910165,-124.9823675,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Cornwall/@45.0450979,-74.756856,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Victoriaville/@46.0612834,-71.9684615,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Woodstock/@43.1304559,-80.73805,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+St. Thomas/@42.7784536,-81.1934235,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Chatham/@42.3559446,-82.0800857,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Georgetown/@43.6535487,-79.9023268,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Salaberry-de-Valleyfield/@45.2684875,-74.0747006,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Spruce Grove/@53.541204,-113.9038285,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Shawinigan/@46.689684,-72.8812789,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Rimouski/@48.403825,-68.5819611,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Bradford/@44.1068031,-79.5766192,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Campbell River/@50.0109455,-125.3010675,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Penticton/@49.489748,-119.5659146,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Prince Albert/@53.2168265,-105.671746,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Stouffville/@44.012493,-79.3192395,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Sorel/@46.0053225,-73.098132,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Mission/@49.2312164,-122.325174,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Leamington/@42.0405273,-82.5515808,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Orangeville/@43.9121334,-80.1036288,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Leduc/@53.2723539,-113.5496281,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Orillia/@44.602838,-79.4198325,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Stratford/@43.3688236,-80.984248,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Moose Jaw/@50.3935501,-105.551875,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Cochrane/@51.1904578,-114.4725155,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Lloydminster/@53.2782916,-110.0288106,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Cape Breton/@46.2950631,-60.6701976,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Okotoks/@50.7285527,-113.966334,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Innisfil/@44.298376,-79.6009993,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Timmins/@48.494105,-81.2688895,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Saint-Georges/@46.0979475,-70.6729089,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Parksville/@49.322634,-124.3019572,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Keswick/@44.2276243,-79.479365,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Fort Saskatchewan/@53.7157496,-113.2089864,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Bolton/@43.8727467,-79.7357407,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Midland/@44.7548225,-79.8583045,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Regina/@50.4585942,-104.6354091,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+St. John's/@47.4826312,-52.8296403,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Kelowna/@49.8996925,-119.4547795,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Barrie/@44.3591392,-79.665722,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Sherbrooke/@45.4119432,-71.9556372,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Guelph/@43.534433,-80.240168,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Kanata/@45.3484296,-75.9353381,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Abbotsford/@49.0870455,-122.2676685,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Trois-Rivières/@46.3727655,-72.5957896,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Kingston/@44.3398599,-76.4731945,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Milton/@43.5231324,-79.942436,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Moncton/@46.113255,-64.8006006,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+White Rock/@49.0166675,-122.812268,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Nanaimo/@49.1780019,-123.9370119,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Brantford/@43.1476086,-80.2740655,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Chicoutimi/@48.3389125,-71.1075547,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Saint-Jérôme/@45.796479,-74.043705,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Red Deer/@52.2792348,-113.808089,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Thunder Bay/@48.4025585,-89.2405251,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Lethbridge/@49.6885856,-112.845585,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Kamloops/@50.7417549,-120.2987295,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Sudbury/@46.584407,-81.079126,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Saint-Jean-sur-Richelieu/@45.323064,-73.2897004,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Peterborough/@44.315482,-78.3282696,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Chilliwack/@49.1372365,-121.9498565,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Châteauguay/@45.362877,-73.744799,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Belleville/@44.2406001,-77.361139,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Sarnia/@43.0344295,-82.3436345,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Airdrie/@51.2854305,-114.0036318,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Drummondville/@45.8920845,-72.4608,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Welland/@42.9803594,-79.2297889,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Fort McMurray/@56.6970928,-111.3477879,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Prince George/@53.9268985,-122.7524185,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Sault Ste. Marie/@46.5317405,-84.4238035,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Fredericton/@45.945462,-66.6662515,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Saint John/@45.110292,-66.0418475,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Medicine Hat/@50.051616,-110.7092374,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Grande Prairie/@55.1779996,-118.8206325,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Granby/@45.397663,-72.7543225,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Bowmanville/@43.9104969,-78.6853906,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Beloeil/@45.589399,-73.2249365,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Charlottetown/@46.2619612,-63.13589,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Vernon/@50.2353515,-119.340157,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+North Bay/@46.3324605,-79.3805354,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Saint-Hyacinthe/@45.6371,-72.9361785,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Brandon/@49.8606321,-99.9068439,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Joliette/@46.0108245,-73.421568,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Courtenay/@49.6910165,-124.9823675,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Cornwall/@45.0450979,-74.756856,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Victoriaville/@46.0612834,-71.9684615,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Woodstock/@43.1304559,-80.73805,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+St. Thomas/@42.7784536,-81.1934235,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Chatham/@42.3559446,-82.0800857,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Georgetown/@43.6535487,-79.9023268,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Salaberry-de-Valleyfield/@45.2684875,-74.0747006,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Spruce Grove/@53.541204,-113.9038285,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Shawinigan/@46.689684,-72.8812789,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Rimouski/@48.403825,-68.5819611,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Bradford/@44.1068031,-79.5766192,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Campbell River/@50.0109455,-125.3010675,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Penticton/@49.489748,-119.5659146,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Prince Albert/@53.2168265,-105.671746,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Stouffville/@44.012493,-79.3192395,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Sorel/@46.0053225,-73.098132,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Mission/@49.2312164,-122.325174,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Leamington/@42.0405273,-82.5515808,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Orangeville/@43.9121334,-80.1036288,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Leduc/@53.2723539,-113.5496281,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Orillia/@44.602838,-79.4198325,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Stratford/@43.3688236,-80.984248,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Moose Jaw/@50.3935501,-105.551875,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Cochrane/@51.1904578,-114.4725155,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Lloydminster/@53.2782916,-110.0288106,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Cape Breton/@46.2950631,-60.6701976,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Okotoks/@50.7285527,-113.966334,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Innisfil/@44.298376,-79.6009993,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Timmins/@48.494105,-81.2688895,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Saint-Georges/@46.0979475,-70.6729089,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Parksville/@49.322634,-124.3019572,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Keswick/@44.2276243,-79.479365,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Fort Saskatchewan/@53.7157496,-113.2089864,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Bolton/@43.8727467,-79.7357407,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Could not find Chrome (ver. 115.0.5790.98). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\emili\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration. --- https://www.google.com/maps/search/interior+designer+in+Midland/@44.7548225,-79.8583045,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
+Error: Failed to launch the browser process!
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+ --- https://www.google.com/maps/place/Sprague+Interiors/data=!4m7!3m6!1s0x89d3512a5c56c103:0xc77693ebe7b049de!8m2!3d43.1571721!4d-79.2501529!16s%2Fg%2F11fk3ygqb0!19sChIJA8FWXCpR04kR3kmw5-uTdsc?authuser=0&hl=en&rclk=1 | getPlacesData()
+Error: Failed to launch the browser process!
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+ --- https://www.google.com/maps/place/Spaces/data=!4m7!3m6!1s0x4b0ca69efb9646ef:0xaea5d7c956f19e1c!8m2!3d47.6012895!4d-52.7414399!16s%2Fg%2F11rctm_8h!19sChIJ70aW-56mDEsRHJ7xVsnXpa4?authuser=0&hl=en&rclk=1 | getPlacesData()
+Error: Failed to launch the browser process!
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+ --- https://www.google.com/maps/place/Jonathan+Morgan+%26+Company+Limited/data=!4m7!3m6!1s0x5486717ecf368673:0x414b974b3d13a13f!8m2!3d49.051966!4d-122.6930341!16s%2Fg%2F1thl0jvk!19sChIJc4Y2z35xhlQRP6ETPUuXS0E?authuser=0&hl=en&rclk=1 | getPlacesData()
+Error: Failed to launch the browser process!
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+ --- https://www.google.com/maps/place/Julie+P+Interior+Design/data=!4m7!3m6!1s0x4cc7cfcf1b645435:0xf62a6642891598b5!8m2!3d46.3401859!4d-72.6264269!16s%2Fg%2F11h5rr9t18!19sChIJNVRkG8_Px0wRtZgViUJmKvY?authuser=0&hl=en&rclk=1 | getPlacesData()
+Error: Failed to launch the browser process!
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+ --- https://www.google.com/maps/place/Design+By+Angela/data=!4m7!3m6!1s0x4cd2ace62535deef:0xeb8947dcfc51515!8m2!3d44.2195211!4d-76.577658!16s%2Fg%2F11bwg9y1bh!19sChIJ7941Jeas0kwRFRXFz32UuA4?authuser=0&hl=en&rclk=1 | getPlacesData()
+Error: Failed to launch the browser process!
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+ --- https://www.google.com/maps/place/Inspired+Style+-+Home+Staging+%26+Decor/data=!4m7!3m6!1s0x882b6f9b511d48e5:0xb08e703c14a6b38b!8m2!3d43.4814498!4d-79.8493939!16s%2Fg%2F11fkwstzr_!19sChIJ5UgdUZtvK4gRi7OmFDxwjrA?authuser=0&hl=en&rclk=1 | getPlacesData()

@@ -37,7 +37,9 @@ async function openPuppeteer(url) {
 			headless: false,
 			args: [ '--ignore-certificate-errors' ] 
 		});
-        const page = await browser.newPage();
+        
+		const context = await browser.createIncognitoBrowserContext();
+        const page = await context.newPage();
 
         await page.setViewport({ width: 1200, height: 900 });
         await page.goto(url, { waitUntil: 'networkidle0' });
@@ -82,7 +84,7 @@ async function parsePlaces(page) {
     
             for (let i = 0; i < linkElements.length; i++) {
     
-                if ( linkElements[i].nextElementSibling?.nextElementSibling?.innerText.toLowerCase().includes('sign shop') ) {
+                if ( linkElements[i].nextElementSibling?.nextElementSibling?.innerText?.toLowerCase().includes('sign shop') ) {
                     signShopLinks.add(linkElements[i].href);
                 }
     
@@ -126,7 +128,7 @@ async function getPlacesData( links, page ) {
 		await page.goto(link, { waitUntil: 'networkidle0' });
 
 		const placeData = await page.evaluate(() => {
-			const name = document.querySelector('h1').innerText;
+			const name = document.querySelector('h1')?.innerText ?? 'No Value';
 			const website =
 				document.querySelector('a[data-item-id="authority"]')?.href ??
 				'No Value';
