@@ -48,3 +48,4 @@ Error: Failed to launch the browser process!
 TROUBLESHOOTING: https://pptr.dev/troubleshooting
  --- https://www.google.com/maps/place/Dress+This+Space+Inc./data=!4m7!3m6!1s0x882b2b317e573687:0x42fc5f205bd755a2!8m2!3d43.855305!4d-79.386063!16s%2Fg%2F11f3w9pd_p!19sChIJhzZXfjErK4gRolXXWyBf_EI?authuser=0&hl=en&rclk=1 | getPlacesData()
 TypeError: Cannot read properties of null (reading 'innerText') --- https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj_-5uY_sSAAxVDeysKHXRYBwoYABAAGgJzZg&ohost=www.google.com&cid=CAASEuRoMXyNhOKVQgiht2s8Rtck0A&sig=AOD64_1Yy-ty6jmwkJCp6Z5aYRmeUG6l6Q&adurl=&rct=j | getPlacesData()
+TypeError: Cannot read properties of null (reading 'innerText') --- https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwimv7rGgsWAAxWkDH0KHWUrCqQYABAAGgJwdg&ohost=www.google.com&cid=CAASE-RoTj1jSgM0M8GvwK8XJscyZgY&sig=AOD64_1kO5UkBR2DA56IHUPA5UhE_nCmRQ&adurl=&rct=j | getPlacesData()
