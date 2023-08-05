@@ -38,7 +38,6 @@ async function getContactLinks(url) {
 
         const context = await browser.createIncognitoBrowserContext();
         const page = await context.newPage();
-
         const cookies = await page.cookies();
 		cookies.forEach(page.deleteCookie);
 
