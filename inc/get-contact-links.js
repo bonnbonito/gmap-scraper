@@ -13,14 +13,8 @@ async function getContactLinks(url) {
         
         browser = await puppeteer.launch({
             headless: false,
-<<<<<<< HEAD
-            executablePath: executablePath(),
-            userDataDir: 'D:\\puppeteer',
-            args: [
-=======
 			userDataDir: '../puppeteer-DELETE',
 			args: [
->>>>>>> 5f799c570f3dbc5393b47d60e20141b1df146bb8
 				'--disable-extensions',
 				'--disable-component-extensions-with-background-pages',
 				'--disable-default-apps',
@@ -36,23 +30,14 @@ async function getContactLinks(url) {
 				'--disable-domain-reliability',
 				'--disable-sync',
                 '--ignore-certificate-errors',
-<<<<<<< HEAD
-                '--incognito',
-=======
 				'--incognito',
 				'--no-sandbox',
 				'--disable-setuid-sandbox',
->>>>>>> 5f799c570f3dbc5393b47d60e20141b1df146bb8
 			]
         });
 
         const context = await browser.createIncognitoBrowserContext();
         const page = await context.newPage();
-<<<<<<< HEAD
-        
-=======
-
->>>>>>> 5f799c570f3dbc5393b47d60e20141b1df146bb8
         const cookies = await page.cookies();
 		cookies.forEach(page.deleteCookie);
 
