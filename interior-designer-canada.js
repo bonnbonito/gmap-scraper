@@ -1,6 +1,6 @@
 const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
-const fs = require('fs');
+const fs = require('fs-extra');
 const path = require('path');
 const { extractPlaceID, writeToFile } = require('./inc/helpers');
 const { autoScrollMap } = require('./inc/auto-scroll');
@@ -29,13 +29,25 @@ async function loadProcessedStates() {
 
 async function openPuppeteer(url) {
     let browser = null;
-
+	let chromeTmpDataDir = null;
     try {
         puppeteer.use(StealthPlugin());
-        browser = await puppeteer.launch({ 
+        browser = await puppeteer.launch({
 			headless: false,
 			args: [ '--ignore-certificate-errors' ] 
 		});
+
+		
+		let chromeSpawnArgs = browser.process().spawnargs;
+		for (let i = 0; i < chromeSpawnArgs.length; i++) {
+			if (chromeSpawnArgs[i].indexOf("--user-data-dir=") === 0) {
+				chromeTmpDataDir = chromeSpawnArgs[i].replace("--user-data-dir=", "");
+				console.log('================================================');
+				console.log(chromeTmpDataDir);
+				console.log('================================================');
+			}
+		}
+
         const page = await browser.newPage();
 
         await page.setViewport({ width: 1200, height: 3000 });
@@ -55,6 +67,16 @@ async function openPuppeteer(url) {
     } finally {
         if (browser) {
             await browser.close();
+			if (fs.statSync(chromeTmpDataDir).isDirectory()) {
+                // If so, try to delete the folder recursively
+                fs.rm(chromeTmpDataDir, { recursive: true, force: true }, (err) => {
+                  if (err) {
+                    console.error('Error deleting folder:', chromeTmpDataDir, err);
+                  } else {
+                    console.log('Successfully deleted folder:', chromeTmpDataDir);
+                  }
+                });
+              }
         }
     }
 }
@@ -94,6 +116,7 @@ async function getPlacesData( links ) {
 
 	// Iterate through each link and click on it sequentially
 	for (const link of links) {
+		let chromeTmpDataDir = null;
         console.log(link);
 		const placeID = extractPlaceID(link);
 
@@ -116,6 +139,17 @@ async function getPlacesData( links ) {
 				headless: false,
 				args: [ '--ignore-certificate-errors' ] 
 			});
+
+			
+			let chromeSpawnArgs = browser.process().spawnargs;
+			for (let i = 0; i < chromeSpawnArgs.length; i++) {
+				if (chromeSpawnArgs[i].indexOf("--user-data-dir=") === 0) {
+					chromeTmpDataDir = chromeSpawnArgs[i].replace("--user-data-dir=", "");
+					console.log('=================GET PLACES DATA=======================');
+					console.log(chromeTmpDataDir);
+					console.log('================================================');
+				}
+			}
 
 			page = await browser.newPage();
 
@@ -213,6 +247,16 @@ async function getPlacesData( links ) {
 		} finally {
 			if (browser) {
 				await browser.close();
+				if (fs.statSync(chromeTmpDataDir).isDirectory()) {
+					// If so, try to delete the folder recursively
+					fs.rm(chromeTmpDataDir, { recursive: true, force: true }, (err) => {
+					  if (err) {
+						console.error('Error deleting folder:', chromeTmpDataDir, err);
+					  } else {
+						console.log('Successfully deleted folder:', chromeTmpDataDir);
+					  }
+					});
+				  }
 			}
 		}
 	}

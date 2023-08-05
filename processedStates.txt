@@ -1,4 +1,5 @@
 Toronto
+<<<<<<< HEAD
 Montreal
 Vancouver
 Calgary
@@ -28,3 +29,5 @@ Kingston
 Milton
 Moncton
 White Rock
+=======
+>>>>>>> b3eaec8c9879e6d9b77756758ab86eaf874d8b8d

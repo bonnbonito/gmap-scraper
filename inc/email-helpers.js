@@ -4,6 +4,7 @@ const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 const https = require('https');
 const {autoScroll} = require('./auto-scroll');
+const fs = require('fs-extra');
 
 const agent = new https.Agent({  
 	rejectUnauthorized: false
@@ -174,6 +175,14 @@ async function fetchAndDecodeHTMLPuppeteer(url) {
 			args: [ '--ignore-certificate-errors' ]
 		});
 
+		let chromeTmpDataDir = null;
+		let chromeSpawnArgs = browser.process().spawnargs;
+		for (let i = 0; i < chromeSpawnArgs.length; i++) {
+			if (chromeSpawnArgs[i].indexOf("--user-data-dir=") === 0) {
+				chromeTmpDataDir = chromeSpawnArgs[i].replace("--user-data-dir=", "");
+			}
+		}
+
 		page = await browser.newPage();
 
 		page.on('dialog', async dialog => {
@@ -194,6 +203,16 @@ async function fetchAndDecodeHTMLPuppeteer(url) {
 	} finally {
 		if (browser) {
 			await browser.close();
+			if (fs.statSync(chromeTmpDataDir).isDirectory()) {
+                // If so, try to delete the folder recursively
+                fs.rm(chromeTmpDataDir, { recursive: true, force: true }, (err) => {
+                  if (err) {
+                    console.error('Error deleting folder:', chromeTmpDataDir, err);
+                  } else {
+                    console.log('Successfully deleted folder:', chromeTmpDataDir);
+                  }
+                });
+              }
 		}
 	}
 }
