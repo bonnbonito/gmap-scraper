@@ -56,3 +56,4 @@ TypeError: fs.unlinkSync is not a function --- https://www.google.com/maps/searc
 TimeoutError: Navigation timeout of 30000 ms exceeded --- https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwie6N-posWAAxXDSn0KHddNAv0YABAAGgJzZg&ohost=www.google.com&cid=CAASE-RoADlbi9E_LQ8s3G_wA5Isnj4&sig=AOD64_0OV2siBky1t3vD2_CXnWB_YB3SoA&adurl=&rct=j | getPlacesData()
 Error: EPERM: operation not permitted, unlink 'C:\Users\User\AppData\Local\Temp\puppeteer_dev_profile-n58j0u' --- https://www.google.com/maps/search/interior+designer+in+Toronto/@43.7182412,-79.3780581,13z/data=!4m2!2m1!6e6?entry=ttu | openPuppeteer()
 >>>>>>> b3eaec8c9879e6d9b77756758ab86eaf874d8b8d
+TimeoutError: Navigation timeout of 30000 ms exceeded --- https://www.google.com/maps/place/Interior+Motives+Home+Staging+%26+Downsizing/data=!4m7!3m6!1s0x19ea454b06f2c55:0x3875fa9130310026!8m2!3d44.646189!4d-63.6328975!16s%2Fg%2F11k9qj1y5j!19sChIJVSxvsFSkngERJgAxMJH6dTg?authuser=0&hl=en&rclk=1 | getPlacesData()

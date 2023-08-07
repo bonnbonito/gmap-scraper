@@ -1,5 +1,4 @@
 Toronto
-<<<<<<< HEAD
 Montreal
 Vancouver
 Calgary
@@ -29,5 +28,73 @@ Kingston
 Milton
 Moncton
 White Rock
-=======
->>>>>>> b3eaec8c9879e6d9b77756758ab86eaf874d8b8d
+Nanaimo
+Brantford
+Chicoutimi
+Saint-Jérôme
+Red Deer
+Thunder Bay
+Lethbridge
+Kamloops
+Sudbury
+Saint-Jean-sur-Richelieu
+Peterborough
+Chilliwack
+Châteauguay
+Belleville
+Sarnia
+Airdrie
+Drummondville
+Welland
+Fort McMurray
+Prince George
+Sault Ste. Marie
+Fredericton
+Saint John
+Medicine Hat
+Grande Prairie
+Granby
+Bowmanville
+Beloeil
+Charlottetown
+Vernon
+North Bay
+Saint-Hyacinthe
+Brandon
+Joliette
+Courtenay
+Cornwall
+Victoriaville
+Woodstock
+St. Thomas
+Chatham
+Georgetown
+Salaberry-de-Valleyfield
+Spruce Grove
+Shawinigan
+Rimouski
+Bradford
+Campbell River
+Penticton
+Prince Albert
+Stouffville
+Sorel
+Mission
+Leamington
+Orangeville
+Leduc
+Orillia
+Stratford
+Moose Jaw
+Cochrane
+Lloydminster
+Cape Breton
+Okotoks
+Innisfil
+Timmins
+Saint-Georges
+Parksville
+Keswick
+Fort Saskatchewan
+Bolton
+Midland
