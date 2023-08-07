@@ -284,12 +284,11 @@ async function startProcess() {
 		for (let i = 0; i < rows.length; i++) {
 			try {
 				const row = rows[i].split(',');
-				const city = row[0].trim();
-				const state = row[1].trim();
+				const state = row[0].trim();
 
 				// If the zip has been processed before, skip it
-				if (processedStates.has(city) ) {
-					console.log( 'City done. Skipping..');
+				if (processedStates.has(state) ) {
+					console.log( 'State done. Skipping..');
 					continue;
 				}
 
@@ -297,12 +296,18 @@ async function startProcess() {
 					continue;
 				}
 
+				const lat = row[1].trim();
+				const lang = row[2].trim();
 				const queryText = CONFIG.query.replace(' ', '+');
 				const searchUrl =
 					CONFIG.mapUrl +
 					queryText.replace(' ', '+') +
-					'+in+' + city +
-					',' + state;
+					'+in+' + state +
+					'/@' +
+					lat +
+					',' +
+					lang +
+					',13z/data=!4m2!2m1!6e6?entry=ttu';
 					
 				console.log(searchUrl);
 
