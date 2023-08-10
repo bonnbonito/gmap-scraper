@@ -309,9 +309,9 @@ async function startProcess() {
 				await openPuppeteer(searchUrl);
 
 				// Add the zip to the set of processed zips
-				processedStates.add(state);
+				processedStates.add(city);
 				// Append the zip to the processedStatesFile
-				fs.appendFile(CONFIG.processedStatesFile, state + '\n', (err) => {
+				fs.appendFile(CONFIG.processedStatesFile, city + '\n', (err) => {
 					if (err) {
 						console.error('Error writing to file:', err);
 					}

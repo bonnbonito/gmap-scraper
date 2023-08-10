@@ -168,6 +168,7 @@ const prepareEmails = (emails, domain) => {
 async function fetchAndDecodeHTMLPuppeteer(url) {
 	console.log('Using Puppeteer...');
 	let browser;
+	let chromeTmpDataDir = null;
 	try {
 		puppeteer.use(StealthPlugin());
 		browser = await puppeteer.launch({ 
@@ -175,7 +176,7 @@ async function fetchAndDecodeHTMLPuppeteer(url) {
 			args: [ '--ignore-certificate-errors' ]
 		});
 
-		let chromeTmpDataDir = null;
+		
 		let chromeSpawnArgs = browser.process().spawnargs;
 		for (let i = 0; i < chromeSpawnArgs.length; i++) {
 			if (chromeSpawnArgs[i].indexOf("--user-data-dir=") === 0) {
